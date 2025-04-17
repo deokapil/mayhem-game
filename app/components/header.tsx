@@ -1,12 +1,12 @@
 import { Menu } from "lucide-react";
 const Header = () => {
   return (
-    <header className="flex justify-between items-center mb-12">
-      <div className="logo">
-        <span className="text-yellow-400 font-bold text-5xl">M</span>
+    <header className="flex justify-between items-center mb-2">
+      <div className="logo my-4 mx-8">
+        <img src="images/MM_logo.png" height={60} width={60} />
       </div>
-      <button className="text-white">
-        <Menu size={32} />
+      <button className="my-4 mx-6 text-white font-bold">
+        <Menu size={28} />
       </button>
     </header>
   );
